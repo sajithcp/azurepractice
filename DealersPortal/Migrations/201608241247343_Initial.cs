@@ -18,6 +18,7 @@ namespace DealersPortal.Migrations
                         Status = c.String(maxLength: 20),
                         Date = c.DateTime(),
                         Synced = c.Boolean(),
+                        DealerName = c.String(maxLength: 20),
                     })
                 .PrimaryKey(t => t.Id);
             
