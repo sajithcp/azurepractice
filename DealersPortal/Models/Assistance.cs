@@ -25,9 +25,6 @@ namespace DealersPortal.Models
 
         public DateTime? Date { get; set; }
 
-        public bool? Synced { get; set; }
-
-        [MaxLength(20)]
-        public string DealerName { get; set; }
+        public bool? Synced { get; set; }        
     }
 }
