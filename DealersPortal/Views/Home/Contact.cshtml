@@ -1,10 +1,10 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
+@*<h2>@ViewBag.Title</h2>*@
 @*<h3>@ViewBag.Message</h3>*@
 
-
+<!--
 <address>
     Contoso Automotive Dealer<br />
     One Microsoft Way<br />
@@ -16,4 +16,34 @@
 <address>
     <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@contoso.com</a><br />
     <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@contoso.com</a>
-</address>
+</address>-->
+<div class="row">
+    <div class="col-sm-4 col-lg-4">
+        <div class="panel">
+            <div class="panel-heading">
+                <h3><i class="icon-pushpin main-color"></i> @ViewBag.Title</h3>
+            </div>
+            <div class="panel-body">
+                <address>
+                    <strong>Tech Mahindra Insurance Company</strong><br>
+                    Electronic City<br>
+                    Bangalore,Karnataka - 560100<br>
+                    <i class="icon-phone-sign"></i> + 91 8971000922
+                </address>
+            </div>
+        </div>
+
+
+    </div><div class="col-sm-8 col-lg-8">
+        <div class="panel">
+            <div class="panel-heading">
+                <h3><i class="icon-map-marker main-color"></i> Location</h3>
+            </div>
+            <div class="panel-body">
+                <!-- gMap script container !Do not remove!! -->
+                      <img src="~/images/contact.png" />
+                <!-- gMap script container !Do not remove!! -->
+            </div>
+        </div>
+    </div>
+</div>
