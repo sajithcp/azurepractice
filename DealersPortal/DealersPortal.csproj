@@ -214,6 +214,7 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Properties\PublishProfiles\ProviderAssistanceTrackingSystem - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ProviderAssistanceTrackingSystem-Test - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\googleapis.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
